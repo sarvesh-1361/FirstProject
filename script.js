@@ -23,3 +23,7 @@ function isPalindrome(str) {
 // Example usage
 let inputString = "A man, a plan, a canal, Panama!";
 console.log(`"${inputString}" is a palindrome:`, isPalindrome(inputString));
+
+function printname(name){
+    console.log(name);
+}
