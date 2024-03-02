@@ -2,7 +2,11 @@ a = 200;
 b = 7;
 console.log(a*b)
 
-
+function isLove(str){
+    if(str === 'Love'){
+        return true;
+    }
+}
 function isPalindrome(str) {
     // Remove non-alphanumeric characters and convert to lowercase
     str = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
